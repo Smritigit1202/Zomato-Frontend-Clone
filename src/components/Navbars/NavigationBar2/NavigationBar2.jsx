@@ -1,12 +1,11 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
-import mobileHand from '/icons/smartphone.png'
-import menuBar from '/icons/menu.png'
-import downArrow from '/icons/down-arrow.png'
-import profilePic from '/images/profilepic.jpg'
+import downArrow from '/icons/down-arrow.png';
+import menuBar from '/icons/menu.png';
+import profilePic from '/images/profilepic.jpg';
 
-import SearchBar from '../../../utils/SearchBar/SearchBar'
+import SearchBar from '../../../utils/SearchBar/SearchBar';
 
 import css from './NavigationBar2.module.css';
 
@@ -23,7 +22,7 @@ let NavigationBar = ({ toogleMenu, setToggleMenu }) => {
         <img className={css.menuBar} src={menuBar} alt='menu bar' onClick={() => setToggleMenu(val => !val)} />
         <div className={css.navbarInner}>
             <div className={css.leftSide}>
-                <Link to='/' className={css.appTxt}>Tomato</Link>
+                <Link to='/' className={css.appTxt}>Zomato</Link>
             </div>
             <div className={css.searchBar}>
                 <SearchBar />

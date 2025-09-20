@@ -1,9 +1,9 @@
 
-import bgImg from '/images/addressbackground.jpg'
+import bgImg from '/images/addressbackground.jpg';
 
 import css from './AddRestaurantSec.module.css';
 
-import AddRestaurantFormCard from '../../../utils/Cards/AddRestaurantFormCard/AddRestaurantFormCard'
+import AddRestaurantFormCard from '../../../utils/Cards/AddRestaurantFormCard/AddRestaurantFormCard';
 
 let AddRestaurantSec = () => {
     return <div className={css.outerDiv}>
@@ -14,7 +14,7 @@ let AddRestaurantSec = () => {
             <div className={css.overlayDiv}>
                 <div className={css.sec1}>
                     <div className={css.title}>
-                        Cannot find your favourite restaurant on Tomato?
+                        Cannot find your favourite restaurant on Zomato?
                     </div>
                     <div className={css.tag}>
                         Submit the details and our team will get the restaurant onboard

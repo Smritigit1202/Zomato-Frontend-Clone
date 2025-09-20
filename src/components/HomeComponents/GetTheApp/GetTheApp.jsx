@@ -2,9 +2,9 @@ import { useState } from 'react'
 
 import css from './GetTheApp.module.css'
 
-import mobileImg from '/images/mobile.png'
 import playstoreImg from '/icons/appstore.png'
 import appstoreImg from '/icons/playstore.png'
+import mobileImg from '/images/mobile.png'
 
 let GetTheApp = () => {
 
@@ -17,7 +17,7 @@ let GetTheApp = () => {
                 <img className={css.mobileImg} src={mobileImg} alt="mobile img" />
             </div>
             <div className={css.rightSec}>
-                <div className={css.title}>Get the Tomato App</div>
+                <div className={css.title}>Get the Zomato App</div>
                 <div className={css.tag}>We will send you a link, open it on your phone to download the app</div>
                 <div className={css.inputBoxes}>
                     <div className={css.radiosBtns}>

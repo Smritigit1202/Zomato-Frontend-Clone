@@ -1,12 +1,12 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
-import close from '/icons/close.png'
+import close from '/icons/close.png';
 
 import css from './MobileNavbar.module.css';
 
-import Login from '../../Auth/Login/Login'
-import Signup from '../../Auth/Signup/Signup'
+import Login from '../../Auth/Login/Login';
+import Signup from '../../Auth/Signup/Signup';
 
 let MobileNavbar = ({ toogleMenu, setToggleMenu }) => {
     let [loggedIn, setLoggedIn] = useState(localStorage.getItem('auth') || false);
@@ -20,7 +20,7 @@ let MobileNavbar = ({ toogleMenu, setToggleMenu }) => {
     <div className={css.mobileMenu}>
         <div className={css.menu}>
             <img className={css.menuBar} src={close} alt='menu bar' onClick={() => setToggleMenu(val => !val)} />
-            <Link className={css.title} to='/'>Tomato</Link>
+            <Link className={css.title} to='/'>Zomato</Link>
         </div>
         <div className={css.navbar}>
             <Link to='/add-restaurant' className={css.menuItem} >Add restuarant</Link>

@@ -1,4 +1,4 @@
-import css from './ProfileWidget.module.css'
+import css from './ProfileWidget.module.css';
 
 import rightArrowImg from '/icons/right-arrow.png';
 
@@ -32,7 +32,7 @@ let ProfileWidget = ({name, tag, data}) => {
                     </div>
                 </div>
                 <div className={css.footer}>
-                    Tomato
+                    Zomato
                 </div>
             </div>
             <div className={css.gtw}>Get this widget <img src={rightArrowImg} className={css.rightArrowImg} alt='right arrow' /></div>

@@ -6,7 +6,7 @@ import downArrow from '/icons/down-arrow.png'
 import rightArrow from '/icons/right-arrow1.png'
 import profilePic from '/images/profilepic.jpg'
 
-import css from './AddRestaurantMobileNavbar.module.css';
+import css from './AddRestaurantMobileNavbar.module.css'
 
 let AddRestaurantMobileNavbar = ({ toogleMenu, setToggleMenu }) => {
 
@@ -22,7 +22,7 @@ let AddRestaurantMobileNavbar = ({ toogleMenu, setToggleMenu }) => {
     return <div className={css.navbarH}>
         <div className={css.menu}>
             <img className={css.menuBar} src={close} alt='menu bar' onClick={() => setToggleMenu(val => !val)} />
-            <Link to='/' className={css.title}>Tomato</Link>
+            <Link to='/' className={css.title}>Zomato</Link>
         </div>
         <div className={css.navbar} onClick={() => setState(val => !val)}>
             <span className={css.profile}>
